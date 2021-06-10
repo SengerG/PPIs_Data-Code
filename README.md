@@ -11,10 +11,10 @@ correlation patterns in cancer. We found that higher than expected fraction of p
 in the normal samples. Furthermore, we found that the way proteins interact in complexes indeed constrains their co-abundance patterns. Our results highlight the role 
 of the interactions between the proteins and the need of cancer cells to deal with aberrant changes in protein abundance. 
 
-# This repository stores data and code for the study.
+This repository stores data and code for the study.
 
-# The main functions are described in the Code.R file
+The main functions are described in the Code.R file
 
-# Final data are found in the folder ./RData/Final data
+Final data are found in the folder ./Final data
 
-# All the data needed to run the code are stored in the folder ./RData
+All the data needed to run the code are stored in the folder ./RData
