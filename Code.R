@@ -116,7 +116,7 @@ flattenCorrMatrix <- function(cormat, pmat) {
     cor  =(cormat)[ut],
     p = pmat[ut])}
 
-path = "~/RData/ProteomeData" # Folder that stores proteome quantification data (processed, filtered, normalized) for tumor and normal samples
+path = "~/RData/ProteomeData" # Folder that stores proteome quantification data (processed, filtered, normalized) for tumor and normal samples (This is the output of step A.4)
 files = list.files(path = path, pattern = "^Proteome_", all.files = TRUE, full.names = TRUE, recursive = FALSE)
 for(i in 1:length(files)){
   assign("data",get(load(files[i])))
